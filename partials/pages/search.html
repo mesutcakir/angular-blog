@@ -22,9 +22,9 @@
           <div class="well">
               <h4>Blog Search</h4>
               <div class="input-group">
-                  <input type="text" class="form-control" ng-model="Model.SearchString">
+                  <input type="text" class="form-control" ng-model="SearchModel.SearchString">
                   <span class="input-group-btn">
-                      <button class="btn btn-default" type="button">
+                      <button class="btn btn-default" type="button" ng-click="SearchModel.Search()">
                           <span class="glyphicon glyphicon-search"></span>
                   </button>
                   </span>
@@ -35,7 +35,8 @@
 
         <ul>
 <li  ng-repeat="result in Model.Results">
-<span ng-bind="result.Title"></span>
+
+    <a href="#/post/{{result.Id}}" ng-bind="result.Title"></a>
 </li>
         </ul>
         </div>

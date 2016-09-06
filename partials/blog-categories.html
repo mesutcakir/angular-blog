@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12">
           <ul class="list-unstyled">
-              <li ng-repeat="item in Model.Categories"><a href="#" ng-bind="item.Text"></a>
+              <li ng-repeat="item in Model.Categories"><a href="#/{{item.Id}}" ng-bind="item.Text"></a>
               </li>
           </ul>
         </div>

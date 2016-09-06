@@ -1,9 +1,10 @@
 {
   "SearchString":"Özel arama kelimesi",
   "Results":[
-    {    "Title":"Blog 0"    },
-    {    "Title":"Blog 1"    },
-    {    "Title":"Blog 2"    },
-    {    "Title":"Blog 3"    },{    "Title":"Blog 4"    }
+    { "Id":1,   "Title":"Blog 0"    },
+    { "Id":2,   "Title":"Blog 1"    },
+    { "Id":3,   "Title":"Blog 2"    },
+    { "Id":4,   "Title":"Blog 3"    },
+    { "Id":5,   "Title":"Blog 4"    }
   ]
 }
