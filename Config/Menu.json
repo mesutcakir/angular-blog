@@ -1,0 +1,13 @@
+{
+  "Name":"Deneme Başlık",
+  "Items":[
+    {
+      "Href":"#/",
+      "Text":"Home"
+    },
+      {
+          "Href":"#/Contact",
+          "Text":"Contact"
+        }
+  ]
+}

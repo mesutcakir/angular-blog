@@ -1,0 +1,35 @@
+{
+  "Title":"Blog Başlığı",
+  "SecondTitle":"Blog Başlığı",
+  "Blogs":[
+    {
+      "Title":"Blog Name 1",
+      "Description":"Blog Name Description",
+      "Creator":"Mesut ÇAKIR",
+      "Created":"August 28, 2013 at 10:00 PM",
+      "ImageUrl":"http://placehold.it/900x300"
+    },
+    {
+      "Title":"Blog Name 2",
+      "Description":"Blog Name Description",
+      "Creator":"Mesut ÇAKIR",
+      "Created":"August 28, 2013 at 10:00 PM",
+      "ImageUrl":"http://placehold.it/900x300"
+    },
+    {
+      "Title":"Blog Name 3",
+      "Description":"Blog Name Description",
+      "Creator":"Sulhadin Öney",
+      "Created":"August 28, 2013 at 10:00 PM",
+      "ImageUrl":"http://placehold.it/900x300"
+    }
+  ],
+  "Categories":[
+    {"Text":"Kategori 1","Id":1,"OrderNumber":1},
+    {"Text":"Kategori 2","Id":2,"OrderNumber":2},
+    {"Text":"Kategori 3","Id":3,"OrderNumber":3},
+    {"Text":"Kategori 4","Id":4,"OrderNumber":4},
+    {"Text":"Kategori 5","Id":5,"OrderNumber":5},
+    {"Text":"Kategori 6","Id":6,"OrderNumber":6}
+  ]
+}
